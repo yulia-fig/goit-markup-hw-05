@@ -488,6 +488,7 @@ gap: 24px;
     letter-spacing: 0.02em;
     margin-bottom: 0
 }
+
 /*Footer*/
 .footer-page {
     background-color: #2e2f42;
@@ -598,4 +599,121 @@ gap: 24px;
     fill: #f4f4fd;
     width: 24;
     height: 24;
+}
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    pointer-events: none;
+    transition: op;
+}
+
+.modal-overlay.is-open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 4px;
+    width: 408px;
+    height: 584px;
+    max-width: 480px;
+    max-height: 80%;
+    overflow-y: auto;
+}
+.button-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 50px;
+    width: 24px;
+    height: 24px;ß
+    fill: var(--cornflower);
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.1);
+    top: 24px;
+    right: 24px;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background-color: #e7e9fc;
+    transition: background-color 250mc ease,
+}
+.button-close:hover {
+background-color: #404bbf;
+}
+
+.close-icons-cross {
+    display: block;
+    fill: #2e2f42;
+    transition: fill 250mc ease;
+}
+.button-close:hover .close-icons-cross {
+    fill: #e7e9fc;
+}
+.modal-text {
+    font: 500 16px / 1.5 var(--font-family);
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+}
+.form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 4px;
+    width: 360px;
+    height: 336px;
+    margin: 16px;
+}
+.wrapper {
+    margin-bottom: 8px;
+    margin-left: 24px;
+    max-width: 360px;
+}
+.form-label {
+    display: flex;
+    width: 360px;
+    height: 58px;
+}
+.form-label {
+    width: 360px;
+    height: 58px;
+}
+.wrapper-icons {
+    position: relative;
+    border: 1px solid var(--iris);
+        border-radius: 4px;
+        width: 360px;
+        height: 40px;
+}
+.form-input {
+border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    padding-left: 38px;
+    transition: ;
+}
+.form-input:focus {
+    border-color: #4d5ae5;
+}
+.privacy-policy {
+    font: 400 12px / 1.33333 var(--font-family);
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--iris);
 }
