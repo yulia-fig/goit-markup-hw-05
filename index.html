@@ -399,7 +399,7 @@
     
     </footer>
 
-
+            <!--Window overlay-->
     <div class="modal-overlay">
         <div class="modal">
 
@@ -411,12 +411,13 @@
             <p class="modal-text">Leave your contacts and we will call you back</p>
             
             <form class="form">
+
                 <div class="wrapper">
-                <label class="form-label">
+                <label class="form-label" for="user-name">
                     Name</label>
                     <div class="wrapper-icons">
-                    <input class="form-input" type="label-text" name="name" id=""/>
-                    <svg class="" width="18" height="24">
+                    <input class="form-input" type="text" name="user-name" id="user-name"/>
+                    <svg class="icons" width="18" height="24">
                         <use href="./images/icons.svg#icon-person"></use>
                     </svg>
                     </div>
@@ -424,39 +425,45 @@
                 
                 <div class="wrapper">
                 <label class="form-label">
-                        Phone
+                        Phone</label>
                         <div class="wrapper-icons">
                         <input class="form-input" type="tel" name="contact_tel" />
-                        </div>
-                    </label>
+                        <svg class="icons" width="18" height="24">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                    </div>
                     </div>
                 
                     <div class="wrapper">
                     <label class="form-label">
-                        Email
+                        Email</label>
                         <div class="wrapper-icons">
                         <input class="form-input" type="email" name="email" />
-                        </div>
-                    </label>
+                        <svg class="icons" width="18" height="24">
+                            <use href="./images/icons.svg#icon-mail"></use>
+                        </svg>
+                    </div>
                     </div>
 
                 <div class="wrapper">
                 <label class="form-label">
-                    Comment
+                    Comment</label>
                     <div class="wrapper-icons">
-                    <textarea class="form-input" name="comment" rows="5" placeholder="Text input"></textarea>
-                    </div>
-                </label>
+                    <textarea class="textarea" for="user-comment" name="user-comment" rows="5" placeholder="Text input">
+                    </textarea> 
+                </div>
                 </div>
             </form>
 
-            
-                <svg class="" width="10" height="8">
+            <div class="check">
+                <input class="visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true" />
+                <label class="modal-text" for="user-privacy">I accept the terms and conditions of the <span class="privacy-policy">Privacy Policy"</span></label>
+                <svg class="icons-check" width="10" height="8">
                     <use href="./images/icons.svg#icon-check"></use>
                 </svg>
-                <input class="form-input" type="text" name="topic" />
-                <p class="modal-text">I accept the terms and conditions of the <a class="privacy-policy">Privacy Policy"</a></p>
-            
+                
+                
+            </div>
 
             <form>
                 <button type="submit">Send</button>
@@ -465,17 +472,8 @@
     </div>
 
 
-<svg class="" width="18" height="24">
-  <use href="./images/icons.svg#icon-mail"></use>
-</svg>
-<svg class="" width="18" height="24">
-  <use href="./images/icons.svg#icon-check"></use>
-</svg>
 
 
-<svg class="" width="18" height="24">
-    <use href="./images/icons.svg#icon-phone"></use>
-</svg>
 <svg class="" width="18" height="24">
     <use href="./images/icons.svg#icon-point"></use>
 </svg>
