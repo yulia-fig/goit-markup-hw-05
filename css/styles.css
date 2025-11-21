@@ -790,6 +790,12 @@ border-radius: 4px;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.icons:hover {
+    fill: #ffffff;
+}
+.icons:focus {
+    fill: #ffffff;
+}
 .textarea {
     width: 100%;
     height: 120px;
@@ -825,7 +831,6 @@ border-radius: 4px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #4d5ae5;
-
 }
 .checked-element {
     width: 16px;
