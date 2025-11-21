@@ -817,8 +817,7 @@ border-radius: 4px;
 
 }
 .check-input:checked {
-    border: none;
-    fill: #F4F4FD;
+    
 
 }
 .privacy-policy {
@@ -840,8 +839,8 @@ border-radius: 4px;
     cursor: pointer;
     margin-right: 8px;
     background-color: #404bbf;
-    
-
+    border: none;
+    fill: #F4F4FD;
 }
 .form-button {
     align-items: center;
