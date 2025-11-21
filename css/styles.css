@@ -711,18 +711,13 @@ gap: 24px;
 .button-close:focus .button-close {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .close-icons-cross {
     display: block;
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-overlay .button-close:hover .close-icons-cross {
-    fill: #ffffff;
-}
-.modal-overlay .button-close:focus .close-icons-cross {
-    fill: #ffffff;
 }
 .modal-text {
     font-weight: 500;
