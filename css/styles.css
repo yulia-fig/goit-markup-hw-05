@@ -743,7 +743,9 @@ gap: 24px;
 .wrapper {
     margin-left: 24px;
     max-width: 360px;
-    margin-bottom: 8px;#
+    margin-bottom: 8px;
+}
+.wrapper-com {
     margin-bottom: 16px;
 }
 .form-label {
@@ -775,7 +777,7 @@ border-radius: 4px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input:focus {
-    fill: #4D5AE5;
+    border-color: #4D5AE5;
 }
 .icons {
     position: absolute;
@@ -783,6 +785,9 @@ border-radius: 4px;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icons:focus {
+    fill: #4D5AE5;
 }
 .form-input:focus .icons {
     fill: #ffffff;
@@ -812,13 +817,15 @@ border-radius: 4px;
 
 }
 .check-input:checked {
-    
+    border: none;
+    fill: #F4F4FD;
+
 }
 .privacy-policy {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: #8e8f99;;
+    color: #4d5ae5;
 }
 .checked-element {
     width: 16px;
