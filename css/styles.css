@@ -611,7 +611,7 @@ gap: 24px;
     display: flex;
 }
 .footer-label {
-    gap 24px;
+    gap: 24px;
 }
 .footer-input {
     width: 264px;
@@ -677,7 +677,6 @@ gap: 24px;
     background: #fcfcfc;
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 408px;
     min-height: 584px;
     max-width: 480px;
     overflow-y: auto;
@@ -705,11 +704,11 @@ gap: 24px;
     background-color: #e7e9fc;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button-close:hover {
+.button-close:hover .button-close {
     background-color: #404bbf;
     border: none;
 }
-.button-close:focus {
+.button-close:focus .button-close {
     background-color: #404bbf;
     border: none;
 }
@@ -719,10 +718,10 @@ gap: 24px;
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.close-icons-cross:hover {
+.modal-overlay .button-close:hover .close-icons-cross {
     fill: #ffffff;
 }
-.close-icons-cross:focus {
+.modal-overlay .button-close:focus .close-icons-cross {
     fill: #ffffff;
 }
 .modal-text {
@@ -749,7 +748,6 @@ gap: 24px;
     margin-bottom: 16px;
     margin-left: 24px;
     max-width: 360px;
-    margin-bottom: 8px;
 }
 .form-label {
     width: 360px;
@@ -790,10 +788,7 @@ border-radius: 4px;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icons:hover {
-    fill: #ffffff;
-}
-.icons:focus {
+.form-input:focus .icons {
     fill: #ffffff;
 }
 .textarea {
@@ -828,7 +823,7 @@ border-radius: 4px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: #4d5ae5;
+    color: #8e8f99;;
 }
 .checked-element {
     width: 16px;
@@ -844,8 +839,7 @@ border-radius: 4px;
     cursor: pointer;
     margin-right: 8px;
     background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
+    
 
 }
 .form-button {
