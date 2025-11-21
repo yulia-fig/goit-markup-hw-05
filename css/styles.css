@@ -822,9 +822,7 @@ border-radius: 4px;
 
 }
 .check-input:checked {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
+    
 }
 .privacy-policy {
     font-size: 12px;
@@ -845,6 +843,9 @@ border-radius: 4px;
     fill: transparent;
     cursor: pointer;
     margin-right: 8px;
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 
 }
 .form-button {
