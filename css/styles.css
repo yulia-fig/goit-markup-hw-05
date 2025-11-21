@@ -639,7 +639,6 @@ gap: 24px;
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
-    
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -649,7 +648,6 @@ gap: 24px;
 }
 .footer-icon-point {
     margin-left: 16px;
-
 }
 
 /*Window overlay*/
@@ -735,7 +733,6 @@ gap: 24px;
     text-align: center;
     color: #2E2F42;
     margin-bottom: 16px;
-    
 }
 .form {
     display: flex;
@@ -752,6 +749,7 @@ gap: 24px;
     margin-bottom: 16px;
     margin-left: 24px;
     max-width: 360px;
+    margin-bottom: 8px;
 }
 .form-label {
     width: 360px;
@@ -811,7 +809,7 @@ border-radius: 4px;
 .textarea:focus {
     border-color: #4D5AE5;
 }
-.check {
+.checkbox {
     margin-bottom: 24px;
 }
 .check-input {
@@ -830,10 +828,12 @@ border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    cursor: pointer;
+    margin-right: 8px;
 
 }
 .form-button {
