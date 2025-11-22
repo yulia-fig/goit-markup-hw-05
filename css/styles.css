@@ -609,9 +609,10 @@ gap: 24px;
 }
 .footer-form {
     display: flex;
+    gap: 24px;
 }
 .footer-label {
-    gap: 24px;
+    
 }
 .footer-input {
     width: 264px;
@@ -825,7 +826,7 @@ border-radius: 4px;
     
 
 }
-.checkbox-link {
+.privacy-policy {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -846,6 +847,9 @@ border-radius: 4px;
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
+}
+.checkbox-link {
+
 }
 .form-button {
     align-items: center;
