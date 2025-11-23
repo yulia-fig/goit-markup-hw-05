@@ -801,6 +801,9 @@ gap: 24px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    color: #8e8f99;
+}
+.checkbox-link {
     color: #4d5ae5;
 }
 .checked-element {
@@ -821,9 +824,6 @@ gap: 24px;
 }
 .form-button {
     align-items: center;
-}
-.checkbox-link {
-
 }
 .button-send {
     display: block;
